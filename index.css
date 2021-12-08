@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.cardContainer {
+  height: 30rem;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.button-line {
+  margin-bottom: 1rem;
+  justify-content: center;
+  display: flex;
+}
+
+.button-line > .btn {
+  margin: 0 1rem;
+  width: 15rem;
+  height: 2rem;
+  cursor: pointer;
+  cursor-transition: all 0.5s;
+}
+
+.cardContainer > .cards {
+  width: 20%;
+  height: 10rem;
+  border: 0.1rem solid lightblue;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: gray;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.cardContainer > .cards.selected {
+  background: lightgray;
+}
+
+/*# sourceMappingURL=index.css.map */
